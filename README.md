@@ -25,7 +25,7 @@ Or add to your Claude Code MCP settings:
 }
 ```
 
-If using the [Trail of Bits skills marketplace](https://github.com/trailofbits/skills), install the `codex-mcp` plugin — it configures the MCP server automatically.
+If using the [Trail of Bits skills marketplace](https://github.com/trailofbits/skills), the [second-opinion](https://github.com/trailofbits/skills/tree/main/plugins/second-opinion) plugin configures this MCP server automatically.
 
 ## Prerequisites
 

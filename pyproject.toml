@@ -1,0 +1,24 @@
+[build-system]
+requires = ["uv_build>=0.10.3,<0.11"]
+build-backend = "uv_build"
+
+[project]
+name = "codex-mcp-server"
+version = "0.1.0"
+description = "MCP server wrapping the OpenAI Codex CLI for structured code reviews and general-purpose prompts"
+requires-python = ">=3.11"
+authors = [
+    {name = "Dan Guido"}
+]
+
+dependencies = [
+    "fastmcp==2.14.5",
+    "pydantic==2.12.5",
+]
+
+[project.scripts]
+codex-mcp-server = "codex_mcp_server.server:main"
+
+[project.urls]
+Homepage = "https://github.com/trailofbits/codex-mcp"
+Repository = "https://github.com/trailofbits/codex-mcp.git"

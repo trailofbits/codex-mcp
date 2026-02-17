@@ -78,4 +78,4 @@ codex_exec(
 
 ## License
 
-[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+[Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)
